@@ -1,0 +1,141 @@
+.share {
+  width: 100%;
+  height: 170px;
+  border-radius: 10px;
+  box-shadow: 0px 1px 7px 0px rgba(0,0,0,0.37);
+  -webkit-box-shadow: 0px 1px 7px 0px rgba(0,0,0,0.37);
+}
+.shareWrapper{
+  padding: 10px;
+}
+.sharerTop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imgContainer {
+  position: relative;
+}
+.shareProfileImg{
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+}
+.imgContainer::after {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  left: 0;
+  top: 0;
+  background-color: rgba(255, 255, 255, 0.156);
+  z-index: -1;
+  cursor: pointer;
+}
+.imgContainer:hover::after {
+  z-index: 9;
+}
+.imgContainer {
+  position: relative;
+  width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+.imgContainer::before {
+	content: "";
+	position: absolute;
+	right: 3px;
+	bottom: 3px;
+	border-radius: 50%;
+	width: 8px;
+	height: 8px;
+	background-color: #31a24c;
+	z-index: 9;
+	box-shadow: 0px 0px 0px 2px white;
+}
+  .shareInput {
+  padding: 10px;
+  border: none;
+  caret-color: #1877f2;
+  width: 80%;
+  border-radius: 80px;
+}
+.shareInput:focus {
+  outline: none;
+  background-color: rgba(234, 234, 234, 0.54);
+}
+.shareInput:focus::placeholder {
+  color: transparent;
+}
+.shareHr {
+  margin: 20px;
+}
+.shareBottom {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.shareObtions {
+  display: flex;
+  margin-left: 20px;
+}
+.shareObtion {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-right: 20px;
+}
+.icon1 {
+  color: red;
+}
+.icon2 {
+  color: green;
+}
+.icon3 {
+  color: rgb(250, 142, 0);
+}
+.shareIcon {
+  font-size: 18px;
+  margin-right: 3px;
+}
+.shareObtion:hover .icon3 {
+  border-radius: 50%;
+  color: rgba(238, 233, 227, 0.411);
+  background-color: rgb(250, 142, 0);
+}
+.shareObtion:hover .icon2 {
+  border-radius: 50%;
+  color: white;
+  background-color: green;
+}
+.shareObtion:hover .icon1 {
+  border-radius: 50%;
+  color: white;
+  background-color: red;
+}
+.shareObtionText {
+  font-size: 14px;
+  font-weight: 500;
+}
+.shareButton {
+  padding: 7px;
+  border-radius: 5px;
+  border: none;
+  background-color: green;
+  font-weight: 500;
+  cursor: pointer;
+  color: white;
+  position: absolute;
+  right: 20px;
+  transition: 0.3s;
+}
+.shareButton:hover {
+  background-color: rgb(1, 55, 1);
+  color: rgba(255, 255, 255, 0.923);
+  box-shadow: 0 0 12px rgba(46, 105, 0, 0.693);
+}

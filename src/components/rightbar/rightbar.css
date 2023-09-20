@@ -1,0 +1,58 @@
+.rightbar {
+	flex: 3.5;
+	position: sticky;
+	top: 50px;
+}
+.rightbarWrapper {
+	padding: 20px 20px 0 0;
+}
+.rightbarAd {
+	cursor: pointer;
+	width: 100%;
+	border-radius: 10px;
+	margin: 30px 0;
+}
+.rightbarTitle {
+	font-size: 22px;
+	font-weight: 500;
+	padding: 4px;
+	margin-bottom: 10px;
+	border-radius: 8px;
+	text-align: center;
+	cursor: pointer;
+	transition: 0.1s;
+}
+.rightbarTitle:hover {
+	background-color: #dcdcdcb1;
+}
+.rightbarFollowingImg {
+	width: 100px;
+	height: 100px;
+	object-fit: cover;
+	border-radius: 5px;
+}
+.rightbarInfo {
+	margin-bottom: 30px;
+}
+.rightbarInfoItem {
+	margin-bottom: 10px;
+}
+.rightbarInfokey {
+	font-weight: 500px;
+	margin-right: 15px;
+	color: #555;
+}
+.rightbarInfoValue {
+	font-weight: 300;
+}
+.rightbarFollowings {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.rightbarFollowing {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 20px;
+	cursor: pointer;
+}

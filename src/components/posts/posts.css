@@ -1,0 +1,147 @@
+.post {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 1px 7px 0px rgba(0,0,0,0.37);
+  -webkit-box-shadow: 0px 1px 7px 0px rgba(0,0,0,0.37);
+  margin: 30px 0;
+}
+.postWrapper {
+  padding: 10px;
+}
+.postTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.postTopImg {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	object-fit: cover;
+	margin-right: 8px;
+  cursor: pointer;
+  z-index: 2;
+}
+.postUserName {
+  cursor: pointer;
+  margin: 0 5px;
+}
+.postUserName:hover {
+  text-decoration: underline;
+}
+.postDate {
+  font-size: 12px;
+  color: #777;
+}
+.publicIconContanier {
+  width: 16px;
+  height: 16px;
+  background-color: transparent;
+  position: relative;
+}
+.publicIconContanier .publicIcon {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: -25%;
+  color: #777;
+}
+.postTopImgContainer {
+  position: relative;
+  width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+.postTopImgContainer::before {
+	content: "";
+	position: absolute;
+	right: 3px;
+	bottom: 3px;
+	border-radius: 50%;
+	width: 8px;
+	height: 8px;
+	background-color: #31a24c;
+	z-index: 9;
+	box-shadow: 0px 0px 0px 2px white;
+}
+.postTopLeft {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.postCenter {
+  margin: 20px 0;
+}
+.postTopRight{
+  width: 22px;
+  height: 22px;
+  padding: 3px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.postTopRight:hover {
+  background-color: #c9c9c9c6;
+}
+.postCenterImg {
+  margin-top: 20px;
+  width: 100%;
+  max-height: 500px;
+  object-fit: contain;
+  cursor: pointer;
+}
+.postBottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.postBottomLeft {
+  display: flex;
+  align-items: center;
+}
+.likeIcon {
+  width: 24px;
+  height: 24px;
+  margin-right: 3px;
+  cursor: pointer;
+}
+.postlikeCounter {
+  cursor: pointer;
+  font-size: 15px;
+}
+.postCommentText{
+  cursor: pointer;
+}
+.postlikeCounter:hover,
+.postCommentText:hover {
+  text-decoration: underline;
+}
+.postBottomHr {
+  margin: 5px auto;
+}
+.postDownBottom {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+}
+.postBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  border-radius: 8px;
+  width: 100%;
+  cursor: pointer;
+  transition: 0.1s;
+}
+.postBox:hover {
+  background-color: #c9c9c9c6;
+}
+.postDownIcon {
+  margin-right: 4px;
+  color: #404040;
+}
