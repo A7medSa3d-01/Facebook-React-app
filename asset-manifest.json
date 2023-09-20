@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Facebook-React-App/static/css/main.cc942ce5.css",
+    "main.js": "/Facebook-React-App/static/js/main.388eeebd.js",
+    "index.html": "/Facebook-React-App/index.html",
+    "main.cc942ce5.css.map": "/Facebook-React-App/static/css/main.cc942ce5.css.map",
+    "main.388eeebd.js.map": "/Facebook-React-App/static/js/main.388eeebd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cc942ce5.css",
+    "static/js/main.388eeebd.js"
+  ]
+}
